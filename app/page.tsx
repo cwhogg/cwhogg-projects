@@ -11,67 +11,39 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Study Platform (N of One)",
+    name: "N of One Study Platform",
     url: "#",
     launchDate: "Jan 2026",
     description:
       "AI-powered platform for designing and conducting observational clinical studies with automated protocol generation.",
   },
   {
-    name: "Grief Guide",
+    name: "Life Transition Guide",
     url: "#",
     launchDate: "Jan 2026",
     description:
       "Compassionate app helping people navigate practical and emotional challenges after losing a parent.",
   },
   {
-    name: "EPCH Projects",
+    name: "Automated Product Testing Platform",
     url: "#",
     launchDate: "Jan 2026",
     description:
       "Agent-powered market testing system to autonomously test and launch B2C healthcare products.",
   },
   {
-    name: "My Future Health",
-    url: "https://my-future-health-6b4o.vercel.app/",
-    launchDate: "Dec 2024",
+    name: "UH Backpacking Site",
+    url: "https://ultraheavy-backpacking.vercel.app/",
+    launchDate: "Oct 2025",
     description:
-      "Answer a few basic health questions and see your future health at age 75.",
+      "You might know Ultralight backpacking, but this is Ultraheavy. More pounds and more laughs.",
   },
   {
-    name: "What's That Disease?",
-    url: "https://whatisthatdisease.vercel.app",
-    launchDate: "Jan 2025",
+    name: "Digital Personas",
+    url: "https://patient-agent-mg.vercel.app/",
+    launchDate: "Oct 2025",
     description:
-      "Enter any disease name and get a detailed profile of that disease.",
-  },
-  {
-    name: "Will Pharma Like Me?",
-    url: "https://pharma-sales-analyzer.vercel.app",
-    launchDate: "Feb 2025",
-    description:
-      "Enter your company URL and find out if you can partner with Pharma.",
-  },
-  {
-    name: "Spanish Partner",
-    url: "https://v0-openai-text-to-speech-bb.vercel.app/",
-    launchDate: "May 2025",
-    description:
-      "AI-powered Spanish language partner for conversation practice and learning.",
-  },
-  {
-    name: "App Branding App",
-    url: "https://appfactory-brander.vercel.app/",
-    launchDate: "Jun 2025",
-    description:
-      "Create professional branding and visual identity for your mobile applications.",
-  },
-  {
-    name: "RareDx",
-    url: "https://secondlook.vercel.app/",
-    launchDate: "Aug 2025",
-    description:
-      "Advanced differential diagnosis tool to help you find your rare disease diagnosis.",
+      "Learn from digital personas of patients with rare disease. Ask about their experiences and opinions.",
   },
   {
     name: "EMR Integration Demo",
@@ -95,18 +67,46 @@ const projects: Project[] = [
       "Analyze Reddit discussions for insights into what interventions work for specific medical problems.",
   },
   {
-    name: "UH Backpacking Site",
-    url: "https://ultraheavy-backpacking.vercel.app/",
-    launchDate: "Oct 2025",
+    name: "SecondLook - Rare Disease Dx",
+    url: "https://secondlook.vercel.app/",
+    launchDate: "Aug 2025",
     description:
-      "You might know Ultralight backpacking, but this is Ultraheavy. More pounds and more laughs.",
+      "Advanced differential diagnosis tool to help you find your rare disease diagnosis.",
   },
   {
-    name: "Digital Personas",
-    url: "https://patient-agent-mg.vercel.app/",
-    launchDate: "Oct 2025",
+    name: "App Branding App",
+    url: "https://appfactory-brander.vercel.app/",
+    launchDate: "Jun 2025",
     description:
-      "Learn from digital personas of patients with rare disease. Ask about their experiences and opinions.",
+      "Create professional branding and visual identity for your mobile applications.",
+  },
+  {
+    name: "Spanish Partner",
+    url: "https://v0-openai-text-to-speech-bb.vercel.app/",
+    launchDate: "May 2025",
+    description:
+      "AI-powered Spanish language partner for conversation practice and learning.",
+  },
+  {
+    name: "Will Pharma Like Me?",
+    url: "https://pharma-sales-analyzer.vercel.app",
+    launchDate: "Feb 2025",
+    description:
+      "Enter your company URL and find out if you can partner with Pharma.",
+  },
+  {
+    name: "What's That Disease?",
+    url: "https://whatisthatdisease.vercel.app",
+    launchDate: "Jan 2025",
+    description:
+      "Enter any disease name and get a detailed profile of that disease.",
+  },
+  {
+    name: "My Future Health",
+    url: "https://my-future-health-6b4o.vercel.app/",
+    launchDate: "Dec 2024",
+    description:
+      "Answer a few basic health questions and see your future health at age 75.",
   },
 ];
 
@@ -142,11 +142,6 @@ function ProjectCard({ project }: { project: Project }) {
         >
           {project.launchDate}
         </span>
-        {!isLive && (
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--primary-dim)] text-[var(--primary-light)]">
-            Coming Soon
-          </span>
-        )}
       </div>
     </a>
   );
@@ -158,7 +153,7 @@ export default function Home() {
       <div className="container-wide">
         {/* Header */}
         <header className="mb-12 md:mb-16 animate-fade-in-up">
-          <h1 className="heading-1 mb-4">Projects</h1>
+          <h1 className="heading-1 mb-4">Chris Hogg's Projects</h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl">
             A collection of AI-powered applications exploring healthcare,
             personal science, and consumer experiences.
