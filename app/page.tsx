@@ -32,14 +32,14 @@ const projects: Project[] = [
       "Agent-powered market testing system to autonomously test and launch B2C healthcare products.",
   },
   {
-    name: "UH Backpacking Site",
+    name: "UltraHeavy Backpacking",
     url: "https://ultraheavy-backpacking.vercel.app/",
     launchDate: "Oct 2025",
     description:
       "You might know Ultralight backpacking, but this is Ultraheavy. More pounds and more laughs.",
   },
   {
-    name: "Digital Personas",
+    name: "Synthetic Patients for Research",
     url: "https://patient-agent-mg.vercel.app/",
     launchDate: "Oct 2025",
     description:
