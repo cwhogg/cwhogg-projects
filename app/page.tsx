@@ -12,21 +12,21 @@ interface Project {
 const projects: Project[] = [
   {
     name: "N of One Study Platform",
-    url: "#",
+    url: "https://nofoone.us",
     launchDate: "Jan 2026",
     description:
       "AI-powered platform for designing and conducting observational clinical studies with automated protocol generation.",
   },
   {
     name: "Life Transition Guide",
-    url: "#",
+    url: "https://grief-guide-phi.vercel.app/",
     launchDate: "Jan 2026",
     description:
       "Compassionate app helping people navigate practical and emotional challenges after losing a parent.",
   },
   {
     name: "Automated Product Testing Platform",
-    url: "#",
+    url: "https://epch-projects.vercel.app/",
     launchDate: "Jan 2026",
     description:
       "Agent-powered market testing system to autonomously test and launch B2C healthcare products.",
