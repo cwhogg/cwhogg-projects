@@ -123,7 +123,7 @@ function ProjectCard({ project }: { project: Project }) {
       onClick={!isLive ? (e) => e.preventDefault() : undefined}
     >
       <div className="flex items-start justify-between gap-4">
-        <h2 className="card-title text-lg font-semibold text-[var(--text-primary)] transition-colors">
+        <h2 className="card-title text-lg font-semibold text-[var(--primary-light)] transition-colors">
           {project.name}
         </h2>
         {isLive && (
