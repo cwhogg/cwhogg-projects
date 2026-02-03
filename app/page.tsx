@@ -12,7 +12,7 @@ interface Project {
 const projects: Project[] = [
   {
     name: "N of One Study Platform",
-    url: "https://nofoone.us",
+    url: "https://nofone.us",
     launchDate: "Jan 2026",
     description:
       "AI-powered platform for designing and conducting observational clinical studies with automated protocol generation.",
