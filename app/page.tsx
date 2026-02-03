@@ -10,6 +10,33 @@ export default function Home() {
 
   const menuItems = [
     {
+      name: "Study Platform (N of One)",
+      url: "#",
+      users: "1,234",
+      views: "5,678",
+      created: "01-15-2026",
+      description:
+        "AI-powered platform for designing and conducting observational clinical studies. Features AI agents for protocol generation, informed consent, participant enrollment, and patient communication.",
+    },
+    {
+      name: "Grief Guide",
+      url: "#",
+      users: "2,456",
+      views: "8,901",
+      created: "01-10-2026",
+      description:
+        "Compassionate app helping people navigate practical and emotional challenges after losing a parent. Features dual chat modes (Guide + Therapist), task management, and resource directory.",
+    },
+    {
+      name: "EPCH Projects",
+      url: "#",
+      users: "567",
+      views: "2,345",
+      created: "01-20-2026",
+      description:
+        "Agent-powered market testing system to autonomously test and launch B2C healthcare products. Dashboard with product pipeline, research agents, content generation, and analytics.",
+    },
+    {
       name: "My Future Health",
       url: "https://my-future-health-6b4o.vercel.app/",
       users: "12,345,678",
